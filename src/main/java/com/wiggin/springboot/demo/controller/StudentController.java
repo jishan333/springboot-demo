@@ -20,8 +20,5 @@ public class StudentController {
     private StudentService service;
 
     @RequestMapping(value = "/qryById")
-    public Student qry(int id){
-        System.out.println("this is v1");
-        return service.queryById(id);
-    }
-}
+
+    aaaaaaaaaaaaaa
