@@ -20,9 +20,21 @@ public class StudentController {
     private StudentService service;
 
     @RequestMapping(value = "/qryById")
-    public Student qry(int id){
-        System.out.println("this is v2");
+    public Student qry(int id)
+        System.out.println("dev1111111111");
 
         return service.queryById(id);
     }
+}
+public class StudentController {
+
+    @Autowired
+    private StudentService service;
+
+    @RequestMapping(value = "/qryById")
+    public Student qry(int id)
+        System.out.println("dev1111111111");
+
+        return service.queryById(id);
+}
 }
